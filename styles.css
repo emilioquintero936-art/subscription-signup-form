@@ -1,0 +1,70 @@
+body {
+  margin: 0; /* Removes the default space around the edges of the webpage */
+  background-color: #eeeeee; /* Sets a soft, light gray background for the page */
+  font-family: Arial, sans-serif; /* Uses a clean, standard font across the entire page */
+}
+
+.form-container {
+  background-color: #ffffff; /* Gives the card container a crisp white background */
+  max-width: 520px; /* Sets the width of the white card to match the layout */
+  margin-top: 50px; /* Adds empty space above the card */
+  margin-left: auto; /* Balances the left space to help center the card */
+  margin-right: auto; /* Balances the right space to complete horizontal centering */
+  padding: 36px 40px; /* Adds inner space around the content inside the card */
+  border-radius: 10px; /* Slightly rounds the corners of the white container */
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08); /* Adds a subtle shadow around the card */
+}
+
+.featured-img {
+  display: block; /* Allows the image to be centered using left and right margins */
+  width: 105px; /* Sets the width of the dog image */
+  height: 105px; /* Keeps the height equal to the width so it forms a true circle */
+  margin-left: auto; /* Automatically balances the space on the left of the image */
+  margin-right: auto; /* Automatically balances the space on the right of the image */
+  margin-bottom: 18px; /* Adds space between the image and the heading below it */
+  border-radius: 50%; /* Turns the square image into a circle */
+  border: 3px solid #471869; /* Adds a 3-pixel solid deep purple border around the circle */
+}
+
+h1 {
+  color: #471869; /* Sets the heading text to deep purple */
+  text-align: center; /* Centers only the heading text horizontally */
+  font-size: 28px; /* Sets a large, bold size for the title */
+  margin-top: 0; /* Removes extra default space above the heading */
+  margin-bottom: 18px; /* Creates space between the heading and the paragraph */
+}
+
+p {
+  color: #333333; /* Uses a dark charcoal gray for easy reading */
+  font-size: 14px; /* Sets a clean, compact size for the description text */
+  line-height: 1.5; /* Adds vertical space between lines of text */
+  margin-top: 0; /* Removes extra default space above the paragraph */
+  margin-bottom: 22px; /* Adds space between the paragraph and the first input box */
+}
+
+input {
+  box-sizing: border-box; /* Keeps padding and borders inside the 100% width so boxes align evenly */
+  width: 100%; /* Makes each input box stretch across the full width of the form */
+  padding: 12px; /* Adds comfortable inner space inside the typing boxes */
+  margin-bottom: 12px; /* Adds vertical space between the input fields and the button */
+  border: 1px solid #cccccc; /* Gives the input boxes a thin, light gray border */
+  border-radius: 4px; /* Gives the input boxes subtly rounded corners */
+  font-size: 14px; /* Sets the font size for the placeholder and typed text */
+}
+
+button {
+  box-sizing: border-box; /* Keeps the button width aligned cleanly with the input boxes */
+  width: 100%; /* Stretches the button across the full width of the form */
+  background-color: #471869; /* Fills the button with deep purple (#471869) */
+  color: #ffffff; /* Makes the button text bright white */
+  border: none; /* Removes the default browser border */
+  border-radius: 4px; /* Matches the subtly rounded corners of the input fields */
+  padding: 12px; /* Adds inner space around the button label */
+  font-size: 14px; /* Sets a clear, neat size for the button text */
+  font-weight: bold; /* Makes the button label stand out */
+  cursor: pointer; /* Shows a pointing hand icon when hovering over the button */
+}
+
+button:hover {
+  background-color: #5e228a; /* Lightens the purple slightly when hovered over */
+}
